@@ -6,7 +6,7 @@ function UserDetails() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/topics")
+      .get("http://signupbackend-env.eba-4jmp2pfv.eu-north-1.elasticbeanstalk.com/topics")
       .then((response) => {
         setUsers(response.data);
       })

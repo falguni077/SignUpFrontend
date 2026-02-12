@@ -31,7 +31,7 @@ function Signup() {
 
     try {
       await axios.post(
-        `http://localhost:8080/topics`,
+        "http://signupbackend-env.eba-4jmp2pfv.eu-north-1.elasticbeanstalk.com/topics",
         {
           name: formData.name,
           email: formData.email,
