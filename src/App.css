@@ -1,6 +1,4 @@
-/* ===============================
-   Layout Wrapper
-================================= */
+
 .app-wrapper {
   position: relative;
   min-height: 100vh;
@@ -11,9 +9,6 @@
   font-family: "Segoe UI", sans-serif;
 }
 
-/* ===============================
-   Smooth Purple-Blue Gradient
-================================= */
 .gradient-bg {
   position: fixed;
   inset: 0;
@@ -35,9 +30,6 @@
   100% { background-position: 0% 50%; }
 }
 
-/* ===============================
-   Magic Bento Background Layer
-================================= */
 .bento-layer {
   position: fixed;
   inset: 0;
@@ -47,27 +39,7 @@
   pointer-events: none; /* Important so form remains clickable */
 }
 
-/* ===============================
-   Glass Signup Card
-================================= */
-/* .container {
-  position: relative;
-  z-index: 5;
-  width: 420px;
-  padding: 45px;
-  border-radius: 24px;
 
-  background: rgba(10, 8, 30, 0.75);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-
-  box-shadow:
-    0 0 60px rgba(132, 0, 255, 0.4),
-    0 30px 70px rgba(0, 0, 0, 0.6);
-
-  color: white;
-  transition: 0.4s ease;
-} */
 
 body {
   margin: 0;
@@ -147,9 +119,6 @@ button:hover {
   transform: translateY(-2px);
 }
 
-/* ===============================
-   Link Button Style
-================================= */
 .user-link {
   display: block;
   width: 100%;
@@ -179,9 +148,6 @@ button:hover {
   text-decoration: underline;
 }
 
-/* ===============================
-   User List
-================================= */
 .user-list {
   margin-top: 25px;
 }
@@ -201,7 +167,7 @@ button:hover {
 
 .password-wrapper input {
   width: 100%;
-  box-sizing: border-box;   /* 🔥 VERY IMPORTANT */
+  box-sizing: border-box;   
   padding: 14px 60px 14px 14px;
   border-radius: 14px;
   border: none;
@@ -217,14 +183,14 @@ button:hover {
   transform: translateY(-50%);
   cursor: pointer;
 
-  font-size: 14px;      /* increased size */
-  font-weight: 600;     /* stronger text */
-  color: #000000;       /* black */
+  font-size: 14px;     
+  font-weight: 600;   
+  color: #000000;      
 
   user-select: none;
   transition: 0.2s ease;
 }
 
 .eye:hover {
-  color: #333333;       /* slight hover change */
+  color: #333333;       
 }
